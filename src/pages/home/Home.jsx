@@ -9,7 +9,15 @@ const Home = () => {
     <div className='home'>
         <Sidebar />
         <div className='homeContainer'>
-            Home
+            <div className="upcoming-title">
+              <p>Upcoming</p>
+              <span>5</span>
+            </div>
+            <div className="home-top"></div>
+            <div className="home-bottom">
+              <div className="home-right"></div>
+              <div className="home-left"></div>
+            </div>
         </div>
     </div>
   )
