@@ -34,9 +34,9 @@
                 transform: translateY(-2px);
             }
 
-            &:last-child{
-                border-bottom: none;
-            }
+            // &:last-child{
+            //     border-bottom: none;
+            // }
 
             input{
                 margin-right: 10px;
@@ -78,15 +78,16 @@
                         p {
                             font-size: 12px;
                         }
+                    }
                         
                         
-                        .center{
+                    .center{
                             display: flex;
                             align-items: center;
                             justify-content: center;
                             gap: 5px;
-                            border: 1px solid #888;
-                            padding-right: 10px;
+                            //border: 1px solid #888;
+                            //padding-left: 8px;
                         }
                         span {
                             display: flex;
@@ -99,25 +100,28 @@
                             font-weight: bold;
                             border-radius: 5px;
                             font-size: 10px;
-                            margin-left: auto;
+                           //margin-right: auto;
                         }
                         p {
                             font-size: 12px;
                         }
                     }
-                   .right{
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        gap: 5px;
-                        padding-right: 10px;
+                        .right{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            gap: 5px;
+                            padding-right: 10px;
+                            border: 1px solid #888;
+                            padding-right: 10px;
 
-                        .color{
-                            width: 12px;
-                            height: 12px;
-                            border-radius: 3px;
-                            background-color: red;
-                            border: none;
+
+                            .color{
+                                width: 12px;
+                                height: 12px;
+                                border-radius: 3px;
+                                background-color: red;
+                                border: none;
                         }
                         p {
                             font-size: 12px;
@@ -131,4 +135,4 @@
 
         }
     }
-}
+

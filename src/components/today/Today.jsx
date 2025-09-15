@@ -45,7 +45,7 @@ const Today = () => {
                         </div>
                         <div className="center"></div>
                         <span>2</span>
-                        <p>Subtags</p>
+                        <p>Subtasks</p>
                         
                         <div className="right">
                             <span className='color' style={{ backgroundColor: 
